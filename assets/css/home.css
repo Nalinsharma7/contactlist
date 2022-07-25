@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+#page-heading{
+    margin-top: 25px;
+    text-align: center;
+    color: dimgrey;
+    font-size: 250%;
+}
+
+#form{
+    position: relative;
+    left: 36%;
+}
+
+#name{
+    width: 220px;
+    height: 25px;
+    border: none;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+#phone{
+    width: 220px;
+    height: 25px;
+    border: none;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+#add{
+    background-color: grey;
+    color: white;
+    width: 90px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+#contact-list-container{
+    text-align: center;
+}
+
+.details{
+    display: flex;
+    justify-content: space-between;
+    background-color: cornflowerblue;
+    border: 2px solid white;
+}
+
+.contact{
+    position: relative;
+    top: 15%;
+    left: 35%;
+    width: 30vw;
+    
+}
+
+.details:hover{
+    background-color: greenyellow;
+}
+
+.delete-button{
+    position: relative;
+    /* right: 47%; */
+    /* left: 30%; */
+    /* background-color: aliceblue; */
+    color: red;
+}
+
+.delete-button:hover{
+    background-color: red;
+}
+

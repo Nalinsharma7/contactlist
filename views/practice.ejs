@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>
+            <%= locals.title%>
+        </title>
+        <style>
+            #name1 {
+                display: inline;
+            }
+            h2{
+                display: inline;
+            }
+
+        </style>
+    </head>
+    <body>
+        <h1>Playground</h1>
+        <h1 id="name1">My name is </h1>
+        <h2><%= name%></h2>
+        <ul>
+            <% for (let i=1;i<6; i++){%>
+                <li>
+                    <%= i %>
+                </li>
+                <%}  %>
+        </ul>
+
+    </body>
+</html>
